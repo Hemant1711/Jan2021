@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33955" started-at="2021-01-16T16:10:57Z" finished-at="2021-01-16T16:11:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33955" started-at="2021-01-16T16:10:57Z" finished-at="2021-01-16T16:11:30Z">
+      <class name="mod7.testcase.DataDriven_2">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="OpenBrowser" is-config="true" duration-ms="11740" started-at="2021-01-16T11:10:57Z" finished-at="2021-01-16T11:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="formFill" duration-ms="3574" started-at="2021-01-16T11:11:12Z" data-provider="testDataFeed" finished-at="2021-01-16T11:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="formFill" duration-ms="3777" started-at="2021-01-16T11:11:15Z" data-provider="testDataFeed" finished-at="2021-01-16T11:11:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepshikha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scarborough]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="formFill" duration-ms="3633" started-at="2021-01-16T11:11:19Z" data-provider="testDataFeed" finished-at="2021-01-16T11:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhaani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scarborough]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="formFill" duration-ms="3584" started-at="2021-01-16T11:11:23Z" data-provider="testDataFeed" finished-at="2021-01-16T11:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Usha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sec76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="formFill" duration-ms="3678" started-at="2021-01-16T11:11:26Z" data-provider="testDataFeed" finished-at="2021-01-16T11:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A57-Sec76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mod7.testcase.DataDriven_2@5594a1b5]" name="closeBrowser" is-config="true" duration-ms="560" started-at="2021-01-16T11:11:30Z" finished-at="2021-01-16T11:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mod7.testcase.DataDriven_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

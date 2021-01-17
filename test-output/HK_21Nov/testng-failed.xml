@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HK_21Nov]" parallel="tests">
+  <parameter name="B" value="Firefox"/>
+  <test name="Chrome">
+    <parameter name="B" value="Chrome"/>
+    <classes>
+      <class name="mod5.BrowserTest"/>
+    </classes>
+  </test> <!-- Chrome -->
+  <test name="Firefox">
+    <parameter name="B" value="Firefox"/>
+    <classes>
+      <class name="mod5.BrowserTest"/>
+    </classes>
+  </test> <!-- Firefox -->
+  <test name="Chrome(failed)" parallel="tests">
+    <parameter name="B" value="Chrome"/>
+    <classes>
+      <class name="mod5.BrowserTest">
+        <methods>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- mod5.BrowserTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="B" value="Firefox"/>
+    <classes>
+      <class name="mod5.BrowserTest">
+        <methods>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- mod5.BrowserTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [HK_21Nov] -->
